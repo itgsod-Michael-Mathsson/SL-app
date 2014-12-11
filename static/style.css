@@ -24,6 +24,7 @@
 }
 
 .tider {
+    background-color: navajowhite;
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -32,13 +33,19 @@
     width: 40vw;
     height: 35vw;
     border: 0.3vw solid black;
+    font-size: 1.25vw;
 }
 
 .bubbla{
-    width: 94%;
+    width: 92.5%;
     float: left;
-    border: ridge purple;
-    margin: 1vw;
+    border: 1vw solid transparent;
+    -webkit-border-image: url(borderimages/boubly_border.png) 300 300 stretch;
+    -o-border-image: url(borderimages/boubly_border.png) 300 300 stretch;
+    -moz-border-image: url(borderimages/boubly_border.png) 300 300 stretch;
+    -ms-border-image: url(borderimages/boubly_border.png) 300 300 stretch;
+    border-image: url(borderimages/boubly_border.png) 300 300 stretch;
+    margin: 0.5vw;
 }
 
 .buss{
@@ -51,7 +58,7 @@
 }
 
 body {
-    background-color: whitesmoke;
+    background-color: navajowhite;
 }
 
 @media (max-width: 1050px){
